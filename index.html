@@ -24,9 +24,9 @@
 <body class="lato-font">
     <header class="container md:mx-auto">
         <!-- navbar section start -->
-        <div class="navbar bg-[#F85559] rounded-full my-12">
-            <div class="navbar-start hidden lg:flex">
-              <ul class="menu menu-horizontal flex-1 text-white">
+        <div class="navbar flex-col md:flex-row lg:flex-row bg-[#F85559] rounded-full my-12">
+            <div class="navbar-start  hidden lg:flex">
+              <ul class="menu menu-horizontal flex-col md:flex lg:flex-1 text-white">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -116,7 +116,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex items-center text-center relative bottom-32 bg-[#fff] m-auto w-4/5 gap-10">
+              <div class="flex hidden md:flex items-center text-center relative bottom-32 bg-[#fff] m-auto w-4/5 gap-10">
                 <div>
                   <img src="images/fruit1.png" alt="">
                   <p>Strawberry</p>
@@ -144,7 +144,7 @@
       <main class="container md:mx-auto">
         <!-- deal of the day section -->
         <section class="mb-10">
-          <div class="flex justify-between mb-17">
+          <div class="flex lg:justify-between mb-17">
              <!-- deal content -->
             <div>
               <h2 class="text-5xl font-extrabold">Deal of the day</h2>
@@ -187,7 +187,7 @@
           <!-- card one -->
           <div class="card w-80 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+              <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -222,7 +222,7 @@
           <!-- card two -->
           <div class="card w-80 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+              <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -257,7 +257,7 @@
           <!-- card three -->
           <div class="card w-80 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+              <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -292,7 +292,7 @@
           <!-- card four -->
           <div class="card w-80 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+              <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -341,7 +341,7 @@
                 <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
                 <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 <!-- meet team card -->
-                <div class="flex gap-20 mb-10 text-center justify-center">
+                <div class="flex flex-col md:flex-row lg:flex gap-20 mb-10 text-center justify-center">
                   <!-- person one -->
                   <div class="card w-96 flex-col items-center">
                     <img src="images/member1.png" alt="">
@@ -477,7 +477,7 @@
               <h2 class="text-2xl font-extrabold pl-3 text-center items-center text-white">Fruit Burst</h2>
           </div>
           <div>
-            <ul class="flex  gap-10 text-lg font-medium cursor-pointer">
+            <ul class="flex gap-10 text-lg font-medium cursor-pointer">
               <li>Home</li>
               <li>About Us</li>
               <li>Shop</li>
